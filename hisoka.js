@@ -3116,7 +3116,10 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = ` *Hai Kak ${m.pushName}*\n\n Saya 𝙎𝙠𝙮𝙬𝙚𝙚 - 𝘽𝙤𝙩, Bot Ini Beta Multi-Device Jika Ada Fitur Error Atau Bug Segera Lapor Develover 𝘽𝙤𝙩
+                anu = ` *Hai Kak ${m.pushName}*\n\nSaya 𝙎𝙠𝙮𝙬𝙚𝙚 - 𝘽𝙤𝙩, Bot Ini Beta Multi-Device Jika Ada Fitur Error Atau Bug Segera Lapor Develover 𝘽𝙤𝙩
+Runtime:* _${runtime(process.uptime())}_
+Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
                 
 ╭─────[ *RULES* ]─────✧
 ┴
