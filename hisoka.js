@@ -3122,16 +3122,14 @@ Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
                 
 ╭─────[ *RULES* ]─────✧
-┴
-│1 Dilarang Satirin Owner Pemula Bang Maklum:v
-│2 Dilarang Spam Command
-│3 Dilarang Kirim Virtex
-│4 Dilarang Spam Menu Ga Jelas
-│5 Dilarang Telp / Vc
-│6 Dilarang Culik Bot
-│7 Dilarang Promosi
-│8 Dilarang Chat Owner Ga Jelas
-│9 Dilarang Plagiat
+┴ 
+│ Dilarang Spam Command
+│ Dilarang Kirim Virtex
+│ Dilarang Spam Menu Ga Jelas
+│ Dilarang Telp / Vc
+│ Dilarang Culik Bot
+│ Dilarang Promosi
+│ Dilarang Chat Owner Ga Jelas
 ┬
 ╰──────────···
 
