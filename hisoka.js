@@ -3134,7 +3134,6 @@ let capt = `⭔ Title: ${judul}
 ╰──────────···
 
 ╭─❒ 「 User Info 」 
-├ Name : ${pushname}
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
 ├ Nomor : @${sender.split('@')[0]}
 ├ Battery : ${isBattre}
