@@ -1198,18 +1198,13 @@ break
                 for (let i of anu) {
                     await sleep(1500)
                     let btn = [{
-                                urlButton: {
-                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝🤖',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
-                                }
-                            }, {
                                 quickReplyButton: {
-                                    displayText: '𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚠𝚗𝚎𝚛',
+                                    displayText: '𝙊𝙬𝙣𝙚𝙧',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙼𝚎𝚗𝚞',
+                                    displayText: '𝙈𝙚𝙣𝙪',
                                     id: 'menu'
                                 }
                             }]
@@ -1227,18 +1222,13 @@ break
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
-                                urlButton: {
-                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝🤖',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
-                                }
-                            }, {
                                 quickReplyButton: {
-                                    displayText: '𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚠𝚗𝚎𝚛',
+                                    displayText: '𝙊𝙬𝙣𝙚𝙧',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙼𝚎𝚗𝚞',
+                                    displayText: '𝙈𝙚𝙣𝙪',
                                     id: 'menu'
                                 }
                             }]
