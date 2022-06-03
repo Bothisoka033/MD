@@ -3120,6 +3120,7 @@ let capt = `⭔ Title: ${judul}
 *Runtime:* _${runtime(process.uptime())}_
 *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
+*Battery* : ${isBattre}
                 
 ╭─────[ *RULES* ]─────✧
 ┴ 
@@ -3132,12 +3133,6 @@ let capt = `⭔ Title: ${judul}
 │ Dilarang Chat Owner Ga Jelas
 ┬
 ╰──────────···
-
-╭─❒ 「 User Info 」 
-├ Bio : ${p1 ? `${p1.status}` : '-'}
-├ Nomor : @${sender.split('@')[0]}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
 
 ╭─────[ *HUKUM* ]─────✧
 ┴
