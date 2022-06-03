@@ -3133,20 +3133,12 @@ let capt = `⭔ Title: ${judul}
 ┬
 ╰──────────···
 
-╭─❒ 「 Bot Info 」 
-├ Prefix :   ${Multi}
-├ Total hit : ${hitall}
-├ Hit today : ${hit_today.length}
-├ Speed : ${latensii.toFixed(4)} Second
-├ Platform : ${os.platform()}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
- 
 ╭─❒ 「 User Info 」 
 ├ Name : ${pushname}
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
 ├ Nomor : @${sender.split('@')[0]}
-╰❒
+├ Battery : ${isBattre}
+╰❒ Charging : ${isCharge}
 
 ╭─────[ *HUKUM* ]─────✧
 ┴
