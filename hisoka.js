@@ -2748,6 +2748,11 @@ case 'allmenu': {
 │
 └───────⭓`
                 let btn = [{
+                                urlButton: {
+                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+                                }
+                            }, {
                                 quickReplyButton: {
                                     displayText: '𝚂𝚎𝚠𝚊 𝙱𝚘𝚝',
                                     id: 'sewabot'
@@ -3157,8 +3162,8 @@ let capt = `⭔ Title: ${judul}
  ╰─────────────────╯`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: '𝐅𝐢𝐤𝐫𝐢𝐢𝐒𝐤𝐲'
+                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
                                 }
                             }, {
                                 quickReplyButton: {
