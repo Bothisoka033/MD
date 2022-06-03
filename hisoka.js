@@ -543,7 +543,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/e4a1f04996e5630a3c334.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n ┏━━━━━━━━━━━━━━⬣
 ┃        〔 SEWA BOT  〕
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃⬣ SEWA + PREM ⬣
+┃⬣ SEWABOT ⬣
 ┃⬡ PERMANEN : 15k
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃〔 KELEBIHAN BOT 〕
@@ -2748,11 +2748,6 @@ case 'allmenu': {
 │
 └───────⭓`
                 let btn = [{
-                                urlButton: {
-                                    displayText: 'Instagram',
-                                    url: '𝐅𝐢𝐤𝐫𝐢𝐢𝐒𝐤𝐲'
-                                }
-                            }, {
                                 quickReplyButton: {
                                     displayText: '𝚂𝚎𝚠𝚊 𝙱𝚘𝚝',
                                     id: 'sewabot'
@@ -3117,9 +3112,9 @@ let capt = `⭔ Title: ${judul}
             break
             case 'list': case 'menu': case 'help': case '?': {
                 anu = ` *Hai Kak ${m.pushName}*\n\nSaya 𝙎𝙠𝙮𝙬𝙚𝙚 - 𝘽𝙤𝙩, Bot Ini Beta Multi-Device Jika Ada Fitur Error Atau Bug Segera Lapor Develover 𝘽𝙤𝙩
-Runtime:* _${runtime(process.uptime())}_
-Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
+*Runtime:* _${runtime(process.uptime())}_
+*Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+*Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
                 
 ╭─────[ *RULES* ]─────✧
 ┴ 
