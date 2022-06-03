@@ -3142,10 +3142,13 @@ let capt = `⭔ Title: ${judul}
 ├ Speed : ${latensii.toFixed(4)} Second
 ├ Hostname : ${os.hostname()}
 ├ Platform : ${os.platform()}
-├ Runtime : ${kyun(runtime)}
 ├ Battery : ${isBattre}
 ╰❒ Charging : ${isCharge}
-
+`
+if(typemenu == 'document'){
+sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+} 
+ 
 ╭─❒ 「 User Info 」 
 ├ Name : ${pushname}
 ├ Bio : ${p1 ? `${p1.status}` : '-'}
