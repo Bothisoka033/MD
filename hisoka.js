@@ -3120,7 +3120,6 @@ let capt = `⭔ Title: ${judul}
 *Runtime:* _${runtime(process.uptime())}_
 *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_
-*Battery* : ${isBattre}
                 
 ╭─────[ *RULES* ]─────✧
 ┴ 
