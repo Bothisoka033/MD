@@ -935,7 +935,7 @@ Yang Mempermudahkan Kamu  Kalo Ada Bug / Error Segera Laporkan Ke Develover 𝘽
           },
           {
             "quickReplyButton": {
-              "displayText": "Donasi",
+              "displayText": "𝘿𝙤𝙣𝙖𝙨𝙞",
 "id": 'donasi'
             }
           },
